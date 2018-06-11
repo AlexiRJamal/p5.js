@@ -42,13 +42,11 @@ let px2 = -1;
 let py2 = -1;
 
 function setup() {
-  // put setup code here
   createCanvas(1200, 600);
   //pg = createGraphics(900, 900);
 }
 
 function draw() {
-  // put drawing code here
   background(0);
 
   let num1 = -g * (2 * m1 + m2) * sin(a1);
@@ -59,6 +57,7 @@ function draw() {
 
   let a1_acc = (num1 + num2 + num3 * num4) / den;
 
+  //Didn't create new vars, just used the old ones
   num1 = 2 * sin(a1 - a2);
   num2 = (a1_vel * a1_vel * r1 * (m1 + m2));
   num3 = g * (m1 + m2) * cos(a1);
@@ -68,6 +67,7 @@ function draw() {
   let a2_acc = (num1 * (num2 + num3 + num4)) / den;
 
   //image(pg, 0, 0);
+
   //translate is for drawing the line in a predefined box
   translate(500, 200);
 
@@ -89,7 +89,7 @@ function draw() {
 
   ellipse(x2, y2, m2, m2);
 
-//Tried drawing a line for the past 4 hours, I GIVE UP...
+//Tried drawing a line for the past 1.5 hours, I GIVE UP...
 
   // pg.beginShape();
   // pg.translate(300, 50);
