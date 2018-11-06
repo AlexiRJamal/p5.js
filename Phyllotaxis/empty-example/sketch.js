@@ -15,7 +15,7 @@ function draw() {
 
   //XP: 64 and 24 and 37 are nice
 
-  var a = n * 137.7;
+  var a = n * 137.3;
   var r = c * sqrt(n);
 
   var x = r * cos(a) + width / 2;

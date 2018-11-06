@@ -26,7 +26,7 @@
  * 
  */
 
-//Variables 'r1' and 'r2' are named in char 'r' because "looks like a one in coding which is kinda confusing"
+//Chars 'r1' and 'r2' are named in 'r' because the 'l' and '1' in coding are confusing
 
 let r1 = 200;
 let r2 = 200;
@@ -42,7 +42,7 @@ let px2 = -1;
 let py2 = -1;
 
 function setup() {
-  createCanvas(1200, 600);
+  createCanvas(1200, 700);
   //pg = createGraphics(900, 900);
 }
 
@@ -88,6 +88,11 @@ function draw() {
   line(x1, y1, x2, y2);
 
   ellipse(x2, y2, m2, m2);
+
+  stroke(255);
+  strokeWeight(4);
+  point(x2, y2);
+  //console.log('Point x: '+x2+"\nPoint y: "+y2);
 
 //Tried drawing a line for the past 1.5 hours, I GIVE UP...
 
