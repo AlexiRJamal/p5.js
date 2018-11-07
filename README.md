@@ -1,5 +1,6 @@
 # p5.js
 <h1>Projects</h1>
+7 segment: old calculator screen
 BST: Binary Search Tree<br>
 BST_visualize: Binary Search Tree visualized in an actual tree<br>
 Clock: clock (no shit Sherlock -_-)<br>
